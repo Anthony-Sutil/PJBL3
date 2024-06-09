@@ -56,7 +56,7 @@ CREATE TABLE IF NOT EXISTS `MrPaper`.`editora` (
   `id_editora` INT(11) NOT NULL AUTO_INCREMENT,
   `data` DATE NOT NULL,
   `nome` VARCHAR(50) NOT NULL,
-  `exemplares vendidos` INT(10),
+  `exemplares_vendidos` INT(10),
   PRIMARY KEY (`id_editora`))
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8;
